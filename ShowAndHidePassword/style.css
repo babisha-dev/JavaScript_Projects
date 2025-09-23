@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:gainsboro;
+}
+.container{
+    background-color: #fff;
+border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 1px 1px darkgrey;
+   text-align: center;
+}
+.input-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+
+}
+.eye-icon{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
