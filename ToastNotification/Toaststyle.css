@@ -1,0 +1,74 @@
+body{
+    background-color: blanchedalmond;
+}
+h2{
+padding-left: 90vh;;
+    font-size: 40px;
+    color: blueviolet;
+
+}
+.btns{
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+.submit.mouse:hover{
+    cursor:pointer;
+}
+.submit{
+    margin-right: 30px;
+    background-color: rgb(18, 184, 18);
+    width: 140px;
+   height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 3px 3px 0px 1px rgb(154, 152, 152);
+}
+.failed{
+    margin-right: 30px;
+    background-color: rgb(183, 54, 4);
+     width: 140px;
+   height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 3px 3px 0px 1px rgb(154, 152, 152);
+}
+.information{
+    margin-right: 30px;
+    background-color: rgb(36, 139, 230);
+     width: 140px;
+   height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 3px 3px 0px 1px rgb(154, 152, 152);
+    
+}
+.warning{
+    margin-right: 30px;
+    background-color: rgb(200, 193, 65);
+     width: 140px;
+   height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 3px 3px 0px 1px rgb(154, 152, 152);
+
+}
+
+
+
+.red{
+    font-size: 20px;
+    background-color: rgb(124, 121, 122);
+    border-color: black;
+    border-radius: 5px;
+    height: 80px;
+    width: 200px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 150px;
+    color: aliceblue;
+
+}
