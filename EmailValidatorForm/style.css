@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: solid 1px 4px 8px 4px;
+    box-sizing: border-box;
+    background-color: azure;
+}
+.container{
+   box-shadow: 0px 1px 1px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color:#ffff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input{
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px darkgrey;
+    border-radius: 5px;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(29, 189, 130);
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-bottom: 15px;
+}
